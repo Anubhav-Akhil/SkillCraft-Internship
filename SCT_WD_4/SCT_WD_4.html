@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>✨ Fun To-Do App ✨</title>
+  <link rel="stylesheet" href="SCT_WD_4.css">
+</head>
+<body>
+  <!-- Landing Page -->
+  <div class="landing">
+    <h1 class="title">✨ Fun To-Do App ✨</h1>
+    <button id="startBtn">Get Started 🚀</button>
+  </div>
+
+  <!-- To-Do App -->
+  <div class="app hidden">
+    <header>
+      <h2>My Tasks ✅</h2>
+      <button id="themeToggle">🌙</button>
+    </header>
+
+    <div class="task-input">
+      <input type="text" id="taskInput" placeholder="Enter your task...">
+      <input type="datetime-local" id="taskDate">
+      <button id="addBtn">Add Task ➕</button>
+    </div>
+
+    <ul id="taskList"></ul>
+  </div>
+
+  <script src="SCT_WD_4.js"></script>
+</body>
+</html>
